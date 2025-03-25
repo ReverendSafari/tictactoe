@@ -70,6 +70,7 @@ const resetGame = () => {
         let currentBox = document.querySelector(`.b${i}`);
         currentBox.textContent = ""
     }
+    if (Marker.getState() == 'O') { Marker.switchState() };
     turnBox.textContent = "Player X's Turn" //Reset Dialogue
     gameActive = true; //Reactivate game
     
