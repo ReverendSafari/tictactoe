@@ -12,9 +12,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 35%;
-    justify-self: center;
     background-color: white;
     opacity: 0.5;
+
+    margin: 0 auto;
 }
 
 .titleBox {
@@ -54,6 +55,6 @@ body {
     body {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: c;
     }
 }
